@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     color: rgb(32, 28, 28);
 }
@@ -25,6 +26,7 @@ body{
     align-items: center;
     gap: 10px;
     box-shadow: 2px 2px 10px rgba(22, 1, 1, 0.705);
+    max-width: 500px;
 }
 
 .img{
