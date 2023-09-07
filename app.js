@@ -8,6 +8,6 @@ currentWeekDay.innerHTML+=getDay
 
 //getting current UTC Time
 
-const utc = new Date().toUTCString();
+const utc = new Date().getUTCMilliseconds();
 const currentUTCTime = document.querySelector('#currentUTCTime');
 currentUTCTime.innerHTML+=utc

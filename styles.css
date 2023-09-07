@@ -26,6 +26,7 @@ body{
     align-items: center;
     gap: 10px;
     box-shadow: 2px 2px 10px rgba(22, 1, 1, 0.705);
+    width: 100%;
     max-width: 500px;
 }
 
